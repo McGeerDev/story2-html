@@ -21,10 +21,9 @@ body{
   padding: 0px;
 }
 
-h1{
+h1, h2{
   font-family: 'QuireSansW01';
   color: #d8515a;
-  font-size: 55px;
 }
 
 p{
@@ -137,9 +136,22 @@ p{
   width: 750px;
 }
 
-.flex-header{
-  display: flex;
-  margin: 5% 15%;
+.landing-separator{
+  padding: 1em 0;
+  position:relative;
+  top: -2em;
+}
+
+.landing-separator img {
+  left: 0;
+  position: absolute;
+  top: -45%;
+  width: 125px;
+}
+
+.landing-separator h2 {
+  font-size: 3em;
+  padding: 0 4em;
 }
 
 .table{
