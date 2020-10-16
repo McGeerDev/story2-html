@@ -41,12 +41,9 @@ p{
 .topnav{
   font-family: 'Lato';
   display: flex;
-  overflow: hidden;
-
-  margin: 0px 10%;
   justify-content: center;
-  align-items: baseline;
   font-weight: bold;
+  align-items: center;
 
 }
 
@@ -75,15 +72,17 @@ p{
   color: #425b7a;
   font-size: 18px;
   text-decoration: none;
-  padding: 15px;
+  padding: 0px 15px;
 }
 
 .nav-link-home{
-  font-family: 'QuireSansW01';
-  color: #d8515a;
-  font-size: 45px;
-  text-decoration: none;
-  padding: 22px;
+  padding-right: 1em;
+
+
+}
+.nav-link-home img {
+  margin-top: -1.5em; 
+  width: 12em;
 }
 
 
