@@ -56,6 +56,7 @@ p{
   font-family: 'Lato';
   font-weight: bold;
   justify-content: center;
+  margin-bottom: 2em;
 }
 
 .btn{
@@ -95,13 +96,14 @@ p{
 }
 
 
-.flex-container{
+.landing-container{
+  align-items: center;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  align-items: normal;
-  align-content: center;
+  overflow: hidden;
+  width: 100vw;
 }
 
 .landing-info {
@@ -116,11 +118,11 @@ p{
 .img-1{
   width: 380px;
 }
-.img-2{
-  width: 900px;
-  margin: 0px;
+
+.landing-image {
   position: relative;
-  bottom: 70px;
+  right: -4em;
+  width: 750px;
 }
 
 .flex-header{
