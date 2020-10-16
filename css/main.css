@@ -100,23 +100,35 @@ p{
   align-items: center;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: flex-end;
   overflow: hidden;
   width: 100vw;
 }
 
 .landing-info {
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-  width: 50%;
-  margin: 0px;
-  margin-left: 15%;
+  width: 30%;
 }
 
-.img-1{
+.landing-info .partner-image {
   width: 380px;
+}
+
+.landing-info h1 {
+  font-size: 3em;
+  line-height: 1em;
+  margin: 0;
+}
+
+.landing-info p {
+  font-size: 1.5em;
+}
+
+.landing-info button {
+  border-radius: 1rem;
 }
 
 .landing-image {
