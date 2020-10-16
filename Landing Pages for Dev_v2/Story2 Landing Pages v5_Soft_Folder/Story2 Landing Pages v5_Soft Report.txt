@@ -1,0 +1,218 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: Story2 Landing Pages v5_Soft.ai
+Color Mode: CMYK color
+Color Profile: U.S. Web Coated (SWOP) v2
+Ruler Units: pixels
+Artboard Dimensions: 1920 px x 4739,3008 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Lato Regular (OTF)
+Quire Sans W01 Bold (TrueType)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\Magoosh Logo\Magoosh Logo\Magoosh-logo-purple-400x90.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 175K, 400 by 90 pixels
+Dimensions: 199,909 by 44,98 points 
+Resolution: 144,066 by 144,066 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\On-demand2.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1071K, 379 by 579 pixels
+Dimensions: 135,348 by 206,771 points 
+Resolution: 201,614 by 201,614 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\On-demand3.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1157K, 403 by 588 pixels
+Dimensions: 143,693 by 209,656 points 
+Resolution: 201,931 by 201,931 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\On-demand1.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1154K, 402 by 588 pixels
+Dimensions: 143,45 by 209,822 points 
+Resolution: 201,771 by 201,771 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\On-demand2.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1071K, 379 by 579 pixels
+Dimensions: 106,783 by 163,133 points 
+Resolution: 255,546 by 255,546 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\On-demand3.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1157K, 403 by 588 pixels
+Dimensions: 113,367 by 165,409 points 
+Resolution: 255,948 by 255,948 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\On-demand1.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1154K, 402 by 588 pixels
+Dimensions: 113,175 by 165,54 points 
+Resolution: 255,745 by 255,745 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\Magoosh Logo\Magoosh Logo\Magoosh-logo-purple-400x90.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 175K, 400 by 90 pixels
+Dimensions: 344,775 by 77,574 points 
+Resolution: 83,533 by 83,533 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\Magoosh Logo\Magoosh Logo\Magoosh-logo-purple-400x90.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 175K, 400 by 90 pixels
+Dimensions: 279,7 by 62,933 points 
+Resolution: 102,967 by 102,967 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\On-demand2.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1071K, 379 by 579 pixels
+Dimensions: 131,966 by 201,605 points 
+Resolution: 206,781 by 206,781 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\On-demand3.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1157K, 403 by 588 pixels
+Dimensions: 140,102 by 204,417 points 
+Resolution: 207,106 by 207,106 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\On-demand1.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1154K, 402 by 588 pixels
+Dimensions: 139,866 by 204,579 points 
+Resolution: 206,942 by 206,942 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\DailyStory.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 3038K, 1020 by 610 pixels
+Dimensions: 384,906 by 230,189 points 
+Resolution: 190,8 by 190,8 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\DailyStory.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 3038K, 1020 by 610 pixels
+Dimensions: 284,26 by 169,999 points 
+Resolution: 258,355 by 258,355 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\Magoosh Logo\Magoosh Logo\Magoosh-logo-purple-400x90.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 175K, 400 by 90 pixels
+Dimensions: 282,056 by 63,463 points 
+Resolution: 102,107 by 102,107 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\On-demand2.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1071K, 379 by 579 pixels
+Dimensions: 106,783 by 163,133 points 
+Resolution: 255,546 by 255,546 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\On-demand3.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1157K, 403 by 588 pixels
+Dimensions: 113,367 by 165,409 points 
+Resolution: 255,948 by 255,948 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\On-demand1.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 1154K, 402 by 588 pixels
+Dimensions: 113,175 by 165,54 points 
+Resolution: 255,745 by 255,745 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\DailyStory.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 3038K, 1020 by 610 pixels
+Dimensions: 385,287 by 224,958 points 
+Resolution: 190,611 by 195,236 pixels per inch
+
+
+C:\Users\neoma\OneDrive\Desktop\Story2\From Client\DailyStory.png
+Type: Transparent CMYK
+Bits per Pixel: 40
+Channels: 5
+Size: 3038K, 1020 by 610 pixels
+Dimensions: 282,464 by 168,925 points 
+Resolution: 259,997 by 259,997 pixels per inch
