@@ -36,6 +36,10 @@ p {
   color: #d8515a;
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
   background-color: #d8515a;
   border: 2px solid #d8515a;
@@ -47,6 +51,12 @@ button {
   margin: 10px;
   text-align: center;
   text-decoration: none;
+}
+
+button:focus,
+button:active {
+  border: 0;
+  outline: 0;
 }
 
 .btn-nofill {
@@ -79,19 +89,103 @@ button {
   margin-bottom: 2em;
 }
 
-.nav>.nav-link-home {
+.nav > .nav-link-home {
   color: #d8515a;
   font-family: 'QuireSansW01';
   font-size: 45px;
-  padding: 22px;
+  padding: 20px;
+  position: relative;
   text-decoration: none;
+  top: 3px;
 }
 
-.nav>.nav-link {
+.nav > .nav-link {
   color: #425b7a;
   font-size: 18px;
   padding: 15px;
   text-decoration: none;
+}
+
+.nav-mobile {
+  display: none;
+  justify-content: space-between;
+  padding: 1em 5vw;
+  width: 90vw;
+}
+
+.nav-mobile button {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0.5em;
+}
+
+.nav-mobile > .nav-link-home {
+  color: #d8515a;
+  font-family: 'QuireSansW01';
+  font-size: 3em;
+}
+
+.nav-mobile > .right-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-mobile > .right-group > .mobile-menu > button {
+  padding-bottom: 5px;
+  position: relative;
+  top: 8px;
+}
+
+.nav-mobile > .right-group > .mobile-menu {
+  position: relative;
+}
+
+.nav-mobile > .right-group > .mobile-menu > button {
+  border: 1px solid transparent;
+  border-radius: 10px 10px 0 10px;
+}
+
+.nav-mobile > .right-group > .mobile-menu > button.open {
+  border: 1px solid #d8515a;
+}
+
+.nav-mobile > .right-group > .mobile-menu > .nav-tray {
+  background: white;
+  border-radius: 10px 0 10px 10px;
+  box-shadow: #777 -5px 5px 15px;
+  flex-direction: column;
+  max-width: 50vw;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  top: 55px;
+  width: max-content;
+  z-index: 10;
+}
+
+.nav-mobile > .right-group > .mobile-menu > .nav-tray.closed {
+  display: none;
+  overflow: hidden;
+}
+
+.nav-mobile > .right-group > .mobile-menu > .nav-tray.open {
+  display: flex;
+}
+
+.nav-mobile > .right-group > .mobile-menu > .nav-tray > .nav-link {
+  color: #425b7a;
+  padding: 0.25em 0.5em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+  }
 }
 
 /* *  *********  * */
@@ -106,7 +200,7 @@ button {
   width: 100vw;
 }
 
-.landing>.landing-info {
+.landing > .landing-info {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -114,24 +208,79 @@ button {
   width: 30%;
 }
 
-.landing>.landing-info>.partner-image {
+.landing>.landing-info > .partner-image {
   width: 380px;
 }
 
-.landing>.landing-info>h1 {
+.landing > .landing-info-mobile {
+  display: none;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.landing > .landing-info-mobile > .partner-mobile-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.landing > .landing-info-mobile > .partner-mobile-container > .partner-image {
+  width: 30vw;
+}
+
+.landing > .landing-info-mobile > .partner-mobile-container > button {
+  font-size: 30px;
+  padding: 5 35px;
+}
+
+.landing > .landing-info-mobile > h1 {
+  font-size: 6em;
+  margin: auto;
+  margin-top: 1em;
+  width: 60vw;
+}
+
+.landing > .landing-info-mobile > p {
+  font-size: 2.25em;
+  margin: auto;
+  margin-top: 1em;
+  width: 60vw;
+}
+
+.landing>.landing-info > h1 {
   font-size: 3em;
   line-height: 1em;
   margin: 0;
 }
 
-.landing>.landing-info>p {
+.landing>.landing-info > p {
   font-size: 1.5em;
 }
 
-.landing>.landing-main-image {
+.landing > .landing-main-image {
   position: relative;
   right: -4em;
   width: 750px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .landing {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .landing > .landing-info {
+    display: none;
+  }
+
+  .landing > .landing-info-mobile {
+    display: flex;
+  }
+
+  .landing > .landing-main-image {
+    position: relative;
+    right: 0;
+    width: 70vw;
+  }
 }
 
 /* *  *******************  * */
@@ -153,6 +302,16 @@ button {
 .landing-separator h2 {
   font-size: 3em;
   padding: 0 4em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .landing-separator>img {
+    display: none;
+  }
+
+  .landing-separator h2 {
+    margin-top: 1em;
+  }
 }
 
 /* *  *******  * */
@@ -245,6 +404,99 @@ button {
   justify-content: center;
 }
 
+.table-mobile {
+  align-items: center;
+  display: none;
+  justify-content: space-between;
+  margin: auto;
+  width: 80vw;
+}
+
+.table-mobile .package {
+  align-items: center;
+  border: 2px solid #d8515a;
+  border-radius: 15px;
+  display: none;
+  flex-direction: column;
+  margin: 0 5em;
+  min-height: 925px;
+  padding: 1em 0 3em;
+  position: relative;
+}
+
+.table-mobile .active.package {
+  display: flex;
+}
+
+.table-mobile .package > .tag{
+  background: #d8515a;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  font-size: 2em;
+  padding: 0.5em 0;
+  position: absolute;
+  text-align: center;
+  top: -69px;
+  width: 80%;
+}
+
+.table-mobile .package > h2, 
+.table-mobile .package > h3 {
+  color: #425b7a;
+  font-size: 3em;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.table-mobile .package > button {
+  font-size: 2em;
+  margin-top: 1em;
+  width: 50%;
+}
+
+.table-mobile .package > hr {
+  background: #d8515a;
+  height: 1px;
+  margin: 3em 0 1em;
+  width: 80%;
+}
+
+.table-mobile .package > p {
+  color: #425b7a;
+  font-size: 2em;
+  width: 80%;
+}
+
+.table-mobile .package > .checks {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.table-mobile .package > .checks > .point {
+  align-items: center;
+  color: #425b7a;
+  display: flex;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.table-mobile .package > .checks > .point > svg {
+  padding-right: 1em;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .table {
+    display: none;
+  }
+
+  .table-mobile {
+    display: flex;
+  }
+}
+
 /* *  *************  * */
 /* Partner div styling */
 /* *  *************  * */
@@ -258,6 +510,13 @@ button {
 
 .partner-div>.partner-image {
   width: 300px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .partner-div>.partner-image {
+    padding-top: 3em;
+    width: 400px;
+  }
 }
 
 /* *  *************  * */
@@ -284,6 +543,24 @@ button {
   color: #000;
   font-size: 2em;
   padding: 1em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .college-admission {
+    background: url("links/banner-red.png") no-repeat;
+    background-position: center;
+    background-size: 120% 120%;
+  }
+
+  .college-admission>img {
+    display: none;
+  }
+
+  .college-admission > h3 {
+    color: #fff;
+    font-size: 3em;
+    width: 80%;
+  }
 }
 
 /* * ************* * */
