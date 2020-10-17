@@ -1,32 +1,32 @@
 @font-face {
-    font-family: 'Lato';
-    src: url('./fonts/Lato-Regular.woff2') format('woff2'),
-        url('./fonts/Lato-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Lato';
+  src: url('./fonts/Lato-Regular.woff2') format('woff2'),
+    url('./fonts/Lato-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'QuireSansW01';
-    src: url('./fonts/QuireSansW01-Bold.woff2') format('woff2'),
-        url('./fonts/QuireSansW01-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'QuireSansW01';
+  src: url('./fonts/QuireSansW01-Bold.woff2') format('woff2'),
+    url('./fonts/QuireSansW01-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* *  ******  * */
 /* Main styling */
 /* *  ******  * */
-body{
+body {
   border-top: 20px solid #d8515a;
   font-size: 16px;
   margin: 0px;
   padding: 0px;
 }
 
-h1, h2{
+h1, h2, h3{
   font-family: 'QuireSansW01';
   color: #d8515a;
 }
@@ -36,7 +36,7 @@ p {
   color: #d8515a;
 }
 
-button{
+button {
   background-color: #d8515a;
   border: 2px solid #d8515a;
   border-radius: 0.6rem;
@@ -49,7 +49,7 @@ button{
   text-decoration: none;
 }
 
-.btn-nofill{
+.btn-nofill {
   background-color: transparent;
   border: 2px solid #d39a9e;
   color: #d8515a;
@@ -67,11 +67,10 @@ button{
 .promo-div a {
   color: #333;
 } */
-
 /* *  *****  * */
 /* Nav styling */
 /* *  *****  * */
-.nav{
+.nav {
   align-items: baseline;
   display: flex;
   font-family: 'Lato';
@@ -80,7 +79,7 @@ button{
   margin-bottom: 2em;
 }
 
-.nav > .nav-link-home{
+.nav>.nav-link-home {
   color: #d8515a;
   font-family: 'QuireSansW01';
   font-size: 45px;
@@ -88,7 +87,7 @@ button{
   text-decoration: none;
 }
 
-.nav > .nav-link{
+.nav>.nav-link {
   color: #425b7a;
   font-size: 18px;
   padding: 15px;
@@ -98,7 +97,7 @@ button{
 /* *  *********  * */
 /* Landing styling */
 /* *  *********  * */
-.landing{
+.landing {
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -107,7 +106,7 @@ button{
   width: 100vw;
 }
 
-.landing > .landing-info {
+.landing>.landing-info {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -115,21 +114,21 @@ button{
   width: 30%;
 }
 
-.landing > .landing-info > .partner-image {
+.landing>.landing-info>.partner-image {
   width: 380px;
 }
 
-.landing > .landing-info > h1 {
+.landing>.landing-info>h1 {
   font-size: 3em;
   line-height: 1em;
   margin: 0;
 }
 
-.landing > .landing-info > p {
+.landing>.landing-info>p {
   font-size: 1.5em;
 }
 
-.landing > .landing-main-image {
+.landing>.landing-main-image {
   position: relative;
   right: -4em;
   width: 750px;
@@ -138,13 +137,13 @@ button{
 /* *  *******************  * */
 /* Landing Separator styling */
 /* *  *******************  * */
-.landing-separator{
+.landing-separator {
   padding: 1em 0;
-  position:relative;
+  position: relative;
   top: -2em;
 }
 
-.landing-separator > img {
+.landing-separator>img {
   left: 0;
   position: absolute;
   top: -95%;
@@ -159,7 +158,7 @@ button{
 /* *  *******  * */
 /* Table styling */
 /* *  *******  * */
-.table{
+.table {
   border: 2px solid #d8515a;
   border-radius: 15px;
   display: grid;
@@ -190,19 +189,20 @@ button{
   border-bottom: 2px solid #d8515a;
 }
 
-.cell-normal.right{
+.cell-normal.right {
   border-right: none;
 }
-.cell-normal.bottom{
+
+.cell-normal.bottom {
   border-bottom: none;
 }
 
-.cell-normal > button {
+.cell-normal>button {
   background: #bbb;
   border-color: #bbb;
 }
 
-.cell-normal > p {
+.cell-normal>p {
   color: #425b7a;
 }
 
@@ -217,8 +217,8 @@ button{
   border-bottom: 0;
 }
 
-.cell-special > .tag {
-  background:  #d8515a;
+.cell-special>.tag {
+  background: #d8515a;
   border-radius: 10px 10px 0 0;
   color: white;
   display: flex;
@@ -256,6 +256,30 @@ button{
   width: 90vw;
 }
 
-.partner-div > .partner-image {
+.partner-div>.partner-image {
   width: 300px;
+}
+
+/* *  *************  * */
+/* College Admissions  */
+/* *  *************  * */
+.college-admission {
+  align-items: center;
+  background: url("links/banner-white.png");
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.college-admission>img {
+  left: -3em;
+  position: relative;
+  width: 750px;
+}
+
+.college-admission > h3 {
+  color: #000;
+  font-size: 2em;
+  padding: 1em;
 }
