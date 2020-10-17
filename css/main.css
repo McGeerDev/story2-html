@@ -147,7 +147,7 @@ button{
 .landing-separator > img {
   left: 0;
   position: absolute;
-  top: -45%;
+  top: -95%;
   width: 125px;
 }
 
@@ -160,7 +160,87 @@ button{
 /* Table styling */
 /* *  *******  * */
 .table{
-  width: 90%;
-  border-radius: 30px;
+  border: 2px solid #d8515a;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  margin: auto;
+  width: 90vw;
+}
 
+.opt-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.opt-header h2,
+.opt-header h3 {
+  color: #425b7a;
+}
+
+.opt-header p {
+  text-align: center;
+}
+
+.cell-normal {
+  border-right: 2px solid #d8515a;
+  border-bottom: 2px solid #d8515a;
+}
+
+.cell-normal.right{
+  border-right: none;
+}
+.cell-normal.bottom{
+  border-bottom: none;
+}
+
+.cell-normal > button {
+  background: #bbb;
+  border-color: #bbb;
+}
+
+.cell-normal > p {
+  color: #425b7a;
+}
+
+.cell-special {
+  background: #ccc;
+  border-right: 2px solid #d8515a;
+  border-bottom: 2px solid #d8515a;
+  position: relative;
+}
+
+.cell-special.bottom {
+  border-bottom: 0;
+}
+
+.cell-special > .tag {
+  background:  #d8515a;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: .5em 0em;
+  position: absolute;
+  top: -2em;
+  width: 100%;
+}
+
+.table .side-header {
+  align-items: center;
+  color: #425b7a;
+  font-family: 'QuireSansW01';
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.table .checkbox {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
