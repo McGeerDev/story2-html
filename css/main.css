@@ -36,6 +36,10 @@ p {
   color: #d8515a;
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
   background-color: #d8515a;
   border: 2px solid #d8515a;
@@ -47,6 +51,12 @@ button {
   margin: 10px;
   text-align: center;
   text-decoration: none;
+}
+
+button:focus,
+button:active {
+  border: 0;
+  outline: 0;
 }
 
 .btn-nofill {
@@ -79,19 +89,103 @@ button {
   margin-bottom: 2em;
 }
 
-.nav>.nav-link-home {
+.nav > .nav-link-home {
   color: #d8515a;
   font-family: 'QuireSansW01';
   font-size: 45px;
-  padding: 22px;
+  padding: 20px;
+  position: relative;
   text-decoration: none;
+  top: 3px;
 }
 
-.nav>.nav-link {
+.nav > .nav-link {
   color: #425b7a;
   font-size: 18px;
   padding: 15px;
   text-decoration: none;
+}
+
+.nav-mobile {
+  display: none;
+  justify-content: space-between;
+  padding: 1em 5vw;
+  width: 90vw;
+}
+
+.nav-mobile button {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0.5em;
+}
+
+.nav-mobile > .nav-link-home {
+  color: #d8515a;
+  font-family: 'QuireSansW01';
+  font-size: 3em;
+}
+
+.nav-mobile > .right-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-mobile > .right-group > .mobile-menu > button {
+  padding-bottom: 5px;
+  position: relative;
+  top: 8px;
+}
+
+.nav-mobile > .right-group > .mobile-menu {
+  position: relative;
+}
+
+.nav-mobile > .right-group > .mobile-menu > button {
+  border: 1px solid transparent;
+  border-radius: 10px 10px 0 10px;
+}
+
+.nav-mobile > .right-group > .mobile-menu > button.open {
+  border: 1px solid #d8515a;
+}
+
+.nav-mobile > .right-group > .mobile-menu > .nav-tray {
+  background: white;
+  border-radius: 10px 0 10px 10px;
+  box-shadow: #777 -5px 5px 15px;
+  flex-direction: column;
+  max-width: 50vw;
+  padding: 1em;
+  position: absolute;
+  right: 0;
+  top: 55px;
+  width: max-content;
+  z-index: 10;
+}
+
+.nav-mobile > .right-group > .mobile-menu > .nav-tray.closed {
+  display: none;
+  overflow: hidden;
+}
+
+.nav-mobile > .right-group > .mobile-menu > .nav-tray.open {
+  display: flex;
+}
+
+.nav-mobile > .right-group > .mobile-menu > .nav-tray > .nav-link {
+  color: #425b7a;
+  padding: 0.25em 0.5em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: flex;
+  }
 }
 
 /* *  *********  * */
