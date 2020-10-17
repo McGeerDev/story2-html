@@ -265,7 +265,9 @@ button {
 /* *  *************  * */
 .college-admission {
   align-items: center;
-  background: url("links/banner-white.png");
+  background: url("links/banner-white.png") no-repeat;
+  background-position: center;
+  background-size: 110% 70%;
   display: flex;
   justify-content: center;
   overflow: hidden;
