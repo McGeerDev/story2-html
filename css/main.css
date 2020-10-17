@@ -285,3 +285,108 @@ button {
   font-size: 2em;
   padding: 1em;
 }
+
+
+
+
+/* * ************* * */
+/* Extra information */
+/* * ************* * */
+
+.landing-extra-info{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  justify-content:space-around;
+  /* overflow: hidden; */
+
+}
+
+.landing-extra-info > .resources-free{
+
+  align-items: center;
+  display: grid;
+  grid-area: 1 / 2 / 2 / 3;
+  justify-content: center;
+  text-align: left;
+
+}
+
+.landing-extra-info > .resources-help{
+
+  align-items: center;
+  display: grid;
+
+  grid-area: 1 / 4 / 2 / 5;
+  justify-content: center;
+  text-align: left;
+}
+.landing-extra-info img {
+  display: grid;
+  width: 200px;
+}
+
+.learn-more{
+  display: grid;
+  justify-content: center;
+  padding-bottom: 3em;
+}
+
+/* * ************** * */
+/* Footer information */
+/* * ************** * */
+
+
+.landing-footer{
+  align-items: center;
+  background-color: #d8515a;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 3em;
+  justify-content: center;
+
+
+}
+
+.landing-footer > .footer-logo{
+  display: grid;
+  margin: 1em;
+  justify-content: center;
+  grid-area: 1 / 1 / 2 / 2;
+
+}
+.landing-footer img{
+
+  display: grid;
+  margin: 1.5em;
+  width: 200px;
+}
+.landing-footer p{
+  display: grid;
+  color: white;
+  text-align: center;
+  margin: 1.5em;
+  width: 180px;
+}
+
+.landing-footer a{
+
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+
+.landing-footer > .footer-links{
+  justify-content: center;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+
+.landing-footer > .footer-copyright{
+  justify-content: center;
+
+  grid-area: 1 / 3 / 2 / 4;
+}
