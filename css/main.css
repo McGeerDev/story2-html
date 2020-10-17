@@ -419,6 +419,7 @@ button:active {
   display: none;
   flex-direction: column;
   margin: 0 5em;
+  min-height: 925px;
   padding: 1em 0 3em;
   position: relative;
 }
