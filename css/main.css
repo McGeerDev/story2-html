@@ -26,7 +26,7 @@ body {
   padding: 0px;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
   font-family: 'QuireSansW01';
   color: #d8515a;
 }
@@ -280,53 +280,45 @@ button {
   width: 750px;
 }
 
-.college-admission > h3 {
+.college-admission>h3 {
   color: #000;
   font-size: 2em;
   padding: 1em;
 }
 
-
-
-
 /* * ************* * */
 /* Extra information */
 /* * ************* * */
-
-.landing-extra-info{
+.landing-extra-info {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1fr;
-  justify-content:space-around;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  width: 65vw;
+  margin: auto;
+  grid-column-gap: 5vw;
   /* overflow: hidden; */
-
 }
 
-.landing-extra-info > .resources-free{
+.landing-extra-info h2 {
 
-  align-items: center;
-  display: grid;
-  grid-area: 1 / 2 / 2 / 3;
-  justify-content: center;
-  text-align: left;
-
+  font-size: 2.5em;
+  justify-self: start;
+  margin-bottom: 0;
 }
 
-.landing-extra-info > .resources-help{
-
-  align-items: center;
-  display: grid;
-
-  grid-area: 1 / 4 / 2 / 5;
-  justify-content: center;
-  text-align: left;
+.landing-extra-info p{
+  padding: 0;
 }
+
 .landing-extra-info img {
-  display: grid;
-  width: 200px;
+  width: 300px;
+}
+.landing-extra-info > .laptop-img {
+  width: 350px;
 }
 
-.learn-more{
+.learn-more {
   display: grid;
   justify-content: center;
   padding-bottom: 3em;
@@ -335,9 +327,7 @@ button {
 /* * ************** * */
 /* Footer information */
 /* * ************** * */
-
-
-.landing-footer{
+.landing-footer {
   align-items: center;
   background-color: #d8515a;
   color: white;
@@ -346,24 +336,22 @@ button {
   grid-template-rows: 1fr;
   grid-column-gap: 3em;
   justify-content: center;
-
-
 }
 
-.landing-footer > .footer-logo{
+.landing-footer>.footer-logo {
   display: grid;
   margin: 1em;
   justify-content: center;
   grid-area: 1 / 1 / 2 / 2;
-
 }
-.landing-footer img{
 
+.landing-footer img {
   display: grid;
   margin: 1.5em;
   width: 200px;
 }
-.landing-footer p{
+
+.landing-footer p {
   display: grid;
   color: white;
   text-align: center;
@@ -371,22 +359,18 @@ button {
   width: 180px;
 }
 
-.landing-footer a{
-
+.landing-footer a {
   color: white;
   text-decoration: none;
   font-size: 1em;
 }
 
-
-.landing-footer > .footer-links{
-  justify-content: center;
+.landing-footer>.footer-links {
+  justify-self: center;
   grid-area: 1 / 2 / 2 / 3;
 }
 
-
-.landing-footer > .footer-copyright{
-  justify-content: center;
-
+.landing-footer>.footer-copyright {
+  justify-self: center;
   grid-area: 1 / 3 / 2 / 4;
 }
