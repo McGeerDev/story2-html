@@ -207,7 +207,7 @@ button{
 }
 
 .cell-special {
-  background: #ccc;
+  background: #f4f4f4;
   border-right: 2px solid #d8515a;
   border-bottom: 2px solid #d8515a;
   position: relative;
@@ -243,4 +243,19 @@ button{
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+/* *  *************  * */
+/* Partner div styling */
+/* *  *************  * */
+.partner-div {
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+  padding-top: 3em;
+  width: 90vw;
+}
+
+.partner-div > .partner-image {
+  width: 300px;
 }
