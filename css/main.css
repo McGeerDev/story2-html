@@ -36,8 +36,24 @@ p {
   color: #d8515a;
 }
 
+
 a {
   text-decoration: none;
+
+
+.container{
+  border-top: 20px solid #d8515a;
+  padding-top: 42px;
+}
+
+.topnav{
+  font-family: 'Lato';
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+
+
 }
 
 button {
@@ -102,6 +118,7 @@ button:active {
 .nav>.nav-link {
   color: #425b7a;
   font-size: 18px;
+
   padding: 15px;
   text-decoration: none;
 }
@@ -162,6 +179,20 @@ button:active {
   top: 55px;
   width: max-content;
   z-index: 10;
+
+  text-decoration: none;
+  padding: 0px 15px;
+}
+
+.nav-link-home{
+  padding-right: 1em;
+
+
+}
+.nav-link-home img {
+  margin-top: -1.5em; 
+  width: 12em;
+
 }
 
 .nav-mobile>.right-group>.mobile-menu>.nav-tray.closed {
